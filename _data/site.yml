@@ -63,8 +63,8 @@ skills:
     level: 90
   - name: Backend development
     level: 80
-  - name: TPlatform engineering
-    level: 90
+  - name: Platform engineering
+    level: 70
 
 
 experience:
