@@ -26,7 +26,6 @@ stats:
     label: Roles
 
 technologies:
-product management:
   - Jira
   - Azure DevOps
   - Mural
@@ -36,7 +35,6 @@ product management:
   - Wiki
   - Microsoft 365
   - Google Workspace
-Software development:
   - OOP
   - Java
   - SonarQube
@@ -53,7 +51,6 @@ Software development:
 
 
 skills:
-product management:
   - name: Technical & Delivery
     level: 90
   - name: Agile product delivery
