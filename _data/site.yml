@@ -1,0 +1,104 @@
+# ─────────────────────────────────────────
+#  PERSONAL INFO  — edit this file freely
+# ─────────────────────────────────────────
+
+name: Alex Morgan
+role: Software Engineer
+email: alex@example.com
+github: alexmorgan
+linkedin: alexmorgan
+
+tagline: "Building things that matter"
+bio_lead: "I'm a full-stack software engineer with over seven years of experience building products that scale."
+bio: |
+  My background spans early-stage startups and enterprise environments — giving me the range to move fast when needed and architect for the long haul when it matters. I've led teams, built from zero-to-one, and done everything in between.
+
+  Outside of work, I contribute to open source, write about software architecture, and tinker with side projects.
+
+stats:
+  - number: "7+"
+    label: Years exp.
+  - number: "40+"
+    label: Projects shipped
+  - number: "12"
+    label: Open source
+  - number: "3"
+    label: Companies
+
+technologies:
+  - TypeScript
+  - React
+  - Node.js
+  - Python
+  - PostgreSQL
+  - AWS
+  - Docker
+  - GraphQL
+
+skills:
+  - name: Frontend Development
+    level: 90
+  - name: Backend & APIs
+    level: 88
+  - name: Cloud & DevOps
+    level: 75
+  - name: System Design
+    level: 82
+  - name: Database Architecture
+    level: 78
+
+experience:
+  - role: Senior Software Engineer
+    company: Acme Technologies
+    period: "2022 — Present"
+    description: "Led development of the company's core platform, reducing API response times by 60% and supporting a 3× growth in user base. Architected a real-time event streaming system handling 2M+ events per day. Mentored a team of 4 junior engineers."
+    tags: [React, Node.js, Kafka, AWS, PostgreSQL]
+
+  - role: Software Engineer
+    company: Bright Labs
+    period: "2019 — 2022"
+    description: "Built and maintained a SaaS analytics dashboard used by 500+ enterprise clients. Designed the data pipeline infrastructure from scratch, cutting ingestion latency from 8s to under 400ms."
+    tags: [TypeScript, Python, Redis, Docker, GCP]
+
+  - role: Junior Developer
+    company: Nexbridge Studio
+    period: "2017 — 2019"
+    description: "Developed client-facing web applications for small and medium businesses. Delivered 15+ projects on time and within scope."
+    tags: [JavaScript, Vue.js, PHP, MySQL]
+
+projects:
+  - number: "01"
+    title: StreamKit
+    description: "Open-source real-time data streaming library for Node.js with built-in backpressure management and WebSocket support."
+    url: "https://github.com/alexmorgan/streamkit"
+    tags: [Node.js, WebSockets, TypeScript]
+
+  - number: "02"
+    title: Palette UI
+    description: "A minimal React component library focused on accessibility and composability. Used by 1,200+ developers on npm."
+    url: "https://github.com/alexmorgan/palette-ui"
+    tags: [React, WCAG 2.1, Storybook]
+
+  - number: "03"
+    title: QueryFlow
+    description: "A visual SQL query builder that auto-generates optimised queries from drag-and-drop logic blocks."
+    url: "https://github.com/alexmorgan/queryflow"
+    tags: [React, PostgreSQL, Python]
+
+  - number: "04"
+    title: Cortex CLI
+    description: "Developer productivity CLI tool with Git workflow automations and AI-assisted changelog generation."
+    url: "https://github.com/alexmorgan/cortex"
+    tags: [Go, OpenAI API, Shell]
+
+  - number: "05"
+    title: Infra Atlas
+    description: "Internal tooling to visualise cloud infrastructure dependencies across AWS accounts."
+    url: "#"
+    tags: [AWS SDK, D3.js, GraphQL]
+
+  - number: "06"
+    title: Briefr
+    description: "Async video update tool for remote teams — record, auto-transcribe, and share standup updates without meetings."
+    url: "#"
+    tags: [React, FFmpeg, Whisper API]

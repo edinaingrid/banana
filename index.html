@@ -1,0 +1,148 @@
+---
+layout: default
+---
+{% assign d = site.data.site %}
+
+<!-- HERO -->
+<section id="home">
+  <div class="hero-grid">
+    <div class="hero-left">
+      <div class="hero-tag fade-up">{{ d.role }}</div>
+      <h1 class="fade-up">{{ d.tagline | split: " " | slice: 0, 2 | join: " " }} <em>{{ d.tagline | split: " " | slice: 2, 10 | join: " " }}</em></h1>
+      <p class="hero-desc fade-up">{{ d.bio_lead }}</p>
+      <div class="btn-row fade-up">
+        <a href="#projects" class="btn-primary">View my work →</a>
+        <a href="#contact" class="btn-ghost">Get in touch</a>
+      </div>
+    </div>
+    <div class="hero-right fade-up">
+      <div class="hero-card">
+        <div class="stat-row">
+          {% for stat in d.stats %}
+          <div class="stat">
+            <div class="stat-num">{{ stat.number }}</div>
+            <div class="stat-label">{{ stat.label }}</div>
+          </div>
+          {% endfor %}
+        </div>
+        <div class="tech-list">
+          {% for tech in d.technologies %}
+          <span class="tag">{{ tech }}</span>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about">
+  <div class="section-inner">
+    <div class="section-label">About me</div>
+    <h2>Engineer by trade,<br>problem solver by nature</h2>
+    <div class="about-grid fade-up">
+      <div class="about-text">
+        <p>{{ d.bio_lead }}</p>
+        {{ d.bio | markdownify }}
+      </div>
+      <div class="skills-block">
+        {% for skill in d.skills %}
+        <div class="skill-row">
+          <div class="skill-name"><span>{{ skill.name }}</span><span>{{ skill.level }}%</span></div>
+          <div class="skill-bar"><div class="skill-fill" data-width="{{ skill.level }}%"></div></div>
+        </div>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- EXPERIENCE -->
+<section id="experience">
+  <div class="section-inner">
+    <div class="section-label">Work Experience</div>
+    <h2>Where I've worked</h2>
+    <div class="timeline">
+      {% for job in d.experience %}
+      <div class="timeline-item fade-up">
+        <div class="timeline-date">
+          <div class="timeline-dot"></div>
+          {{ job.period }}
+        </div>
+        <div>
+          <div class="job-title">{{ job.role }}</div>
+          <div class="job-company">{{ job.company }}</div>
+          <p class="job-desc">{{ job.description }}</p>
+          <div class="job-tags">
+            {% for tag in job.tags %}
+            <span class="tag">{{ tag }}</span>
+            {% endfor %}
+          </div>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects">
+  <div class="section-inner">
+    <div class="section-label">Projects</div>
+    <h2>Selected work</h2>
+    <div class="projects-grid">
+      {% for project in d.projects %}
+      <a href="{{ project.url }}" target="_blank" class="project-card fade-up">
+        <div class="project-num">{{ project.number }}</div>
+        <div class="project-arrow">↗</div>
+        <div class="project-title">{{ project.title }}</div>
+        <p class="project-desc">{{ project.description }}</p>
+        <div class="job-tags">
+          {% for tag in project.tags %}
+          <span class="tag">{{ tag }}</span>
+          {% endfor %}
+        </div>
+      </a>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact">
+  <div class="section-inner">
+    <div class="section-label">Contact</div>
+    <h2>Let's build something<br>together</h2>
+    <div class="contact-grid fade-up">
+      <div class="contact-info">
+        <p>I'm open to new opportunities, collaborations, and interesting conversations. Drop me a message.</p>
+        <div class="contact-links">
+          <a href="mailto:{{ d.email }}" class="contact-link">
+            <div class="contact-link-icon">✉</div>{{ d.email }}
+          </a>
+          <a href="https://github.com/{{ d.github }}" class="contact-link" target="_blank">
+            <div class="contact-link-icon">gh</div>github.com/{{ d.github }}
+          </a>
+          <a href="https://linkedin.com/in/{{ d.linkedin }}" class="contact-link" target="_blank">
+            <div class="contact-link-icon">in</div>linkedin.com/in/{{ d.linkedin }}
+          </a>
+        </div>
+      </div>
+      <form class="contact-form" onsubmit="handleSubmit(event)">
+        <div class="form-group">
+          <label>Name</label>
+          <input type="text" placeholder="Your name">
+        </div>
+        <div class="form-group">
+          <label>Email</label>
+          <input type="email" placeholder="your@email.com">
+        </div>
+        <div class="form-group">
+          <label>Message</label>
+          <textarea rows="5" placeholder="Tell me about your project..."></textarea>
+        </div>
+        <button type="submit" class="btn-send">Send message →</button>
+      </form>
+    </div>
+  </div>
+</section>
