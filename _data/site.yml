@@ -167,10 +167,10 @@ projects:
   - category: Software Development
     number: "04"
     items:
-      - title: Java Backend EVR
-        description: ""
+      - title: Java Backend Developer
+        description: "Developing the backend of financial products in Java for the German banking market. Mentoring and coaching new colleagues in the team. Working with Eclipse, Mercurial, Ivy, CruiseControl, Sonar, Oracle. Testing strategies using JUnit, FitNesse, FIT and ContainerTest."
       - title: Software Developer Intern
-        description: ""
+        description: "Object-oriented programming training in a Java project at iQuest Technologies in Cluj-Napoca, Romania."
 
 interests:
   - icon: "⚙"
