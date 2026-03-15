@@ -125,6 +125,7 @@ projects:
 
   - category: Software Development Advisory
     number: "02"
+    items:
     - title: Palette UI
       description: "A minimal React component library focused on accessibility and composability. Used by 1,200+ developers on npm."
       tags: [React, WCAG 2.1, Storybook]
@@ -149,6 +150,7 @@ projects:
 
   - category: Organizational Change Advisory
     number: "03"
+    items:
     - title: Rabo
       description: ""
       tags: [React, PostgreSQL, Python]
