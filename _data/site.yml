@@ -141,7 +141,7 @@ projects:
       description: "As part of a larger due diligence project for a Swiss public transport provider, I performed a software quality assessment with a focus on analysing source code for maintainability, security, and reliability."
     - title: Software inventory and quality review
       description: "As part of a team engagement for a Dutch multinational professional services firm, I contributed to a software inventory and quality review covering maintainability, security, and reliability as defined by ISO 25010, alongside a value estimation of a digital platform. The review drew on available documentation, source code and artefact analysis, and interviews with key developers."
-      - title: Solution architecture design
+    - title: Solution architecture design
       description: "As part of a large modernisation programme at a public sector entity, I developed several architectural frameworks to guide the transition from monolithic systems to scalable, maintainable, and reliable microservices. These frameworks covered technology choices (Java, PostgreSQL), infrastructure (Kubernetes), messaging options, API gateway usage, and CI/CD tooling setup — with a strong emphasis on maintainability, security, and reliability. I also coached the development teams, who were early in their maturity journey, and built several proof-of-concepts to accelerate both development and understanding. Throughout the engagement I acted as a bridge between the development teams, management, and enterprise architects."
     - title: DevOps maturity model design
       description: "I co-designed a DevOps maturity model as a KPMG asset that organisations can use to assess their maturity across development and continuous integration practices."
