@@ -137,3 +137,24 @@ footer p { font-family: var(--mono); font-size: 0.65rem; letter-spacing: 0.08em;
 
 @media (max-width: 900px) { .interests-grid { grid-template-columns: repeat(2, 1fr); } }
 @media (max-width: 500px) { .interests-grid { grid-template-columns: 1fr; } }
+
+/* PROJECTS — ACCORDION */
+.categories-list { display: flex; flex-direction: column; border-top: 1px solid var(--line); }
+.category-block { border-bottom: 1px solid var(--line); }
+.category-header { width: 100%; background: none; border: none; cursor: pointer; display: flex; justify-content: space-between; align-items: center; padding: 1.8rem 0; text-align: left; gap: 1rem; }
+.category-header:hover .category-name { color: var(--accent); }
+.category-left { display: flex; align-items: center; gap: 1.5rem; }
+.category-num { font-family: var(--mono); font-size: 0.65rem; letter-spacing: 0.12em; color: var(--ink-muted); opacity: 0.6; }
+.category-name { font-family: var(--serif); font-size: 1.5rem; font-weight: 400; color: var(--ink); transition: color 0.2s; }
+.category-meta { display: flex; align-items: center; gap: 1.5rem; flex-shrink: 0; }
+.category-count { font-family: var(--mono); font-size: 0.7rem; letter-spacing: 0.08em; color: var(--ink-muted); }
+.category-arrow { font-size: 1.4rem; color: var(--accent); font-weight: 300; transition: transform 0.3s ease; display: inline-block; line-height: 1; }
+.category-header[aria-expanded="true"] .category-arrow { transform: rotate(45deg); }
+.category-items { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1px; background: var(--line); border: 1px solid var(--line); margin-bottom: 1.8rem; }
+.category-item { background: var(--white); padding: 1.5rem 1.75rem; transition: background 0.2s; }
+.category-item:hover { background: var(--accent-light); }
+.item-title { font-family: var(--sans); font-size: 0.95rem; font-weight: 500; color: var(--ink); margin-bottom: 0.3rem; }
+.item-desc { font-size: 0.85rem; color: var(--ink-muted); line-height: 1.7; margin-top: 0.4rem; }
+
+@media (max-width: 900px) { .category-items { grid-template-columns: repeat(2, 1fr); } .category-name { font-size: 1.2rem; } }
+@media (max-width: 500px) { .category-items { grid-template-columns: 1fr; } }
