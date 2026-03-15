@@ -49,3 +49,15 @@ function handleSubmit(e) {
   btn.style.background = '#1A1A18';
   setTimeout(() => { btn.textContent = 'Send message →'; btn.style.background = ''; }, 3000);
 }
+
+// Projects accordion
+function toggleCategory(btn) {
+  const expanded = btn.getAttribute('aria-expanded') === 'true';
+  const items = btn.nextElementSibling;
+  btn.setAttribute('aria-expanded', !expanded);
+  if (expanded) {
+    items.hidden = true;
+  } else {
+    items.hidden = false;
+  }
+}
