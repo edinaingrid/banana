@@ -90,19 +90,30 @@ layout: default
   <div class="section-inner">
     <div class="section-label">Projects</div>
     <h2>Selected work</h2>
-    <div class="projects-grid">
-      {% for project in d.projects %}
-      <a href="{{ project.url }}" target="_blank" class="project-card fade-up">
-        <div class="project-num">{{ project.number }}</div>
-        <div class="project-arrow">↗</div>
-        <div class="project-title">{{ project.title }}</div>
-        <p class="project-desc">{{ project.description }}</p>
-        <div class="job-tags">
-          {% for tag in project.tags %}
-          <span class="tag">{{ tag }}</span>
+    <div class="categories-list">
+      {% for cat in d.projects %}
+      <div class="category-block fade-up">
+        <button class="category-header" onclick="toggleCategory(this)" aria-expanded="false">
+          <div class="category-left">
+            <span class="category-num">{{ cat.number }}</span>
+            <span class="category-name">{{ cat.category }}</span>
+          </div>
+          <div class="category-meta">
+            <span class="category-count">{{ cat.items | size }} projects</span>
+            <span class="category-arrow">+</span>
+          </div>
+        </button>
+        <div class="category-items" hidden>
+          {% for item in cat.items %}
+          <div class="category-item">
+            <div class="item-title">{{ item.title }}</div>
+            {% if item.description != "" %}
+            <p class="item-desc">{{ item.description }}</p>
+            {% endif %}
+          </div>
           {% endfor %}
         </div>
-      </a>
+      </div>
       {% endfor %}
     </div>
   </div>
