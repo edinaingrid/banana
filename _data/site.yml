@@ -8,22 +8,24 @@ email: edina.ingrid@gmail.com
 github: edinaingrid
 linkedin: edinaingrid
 
-tagline: "Building things that matter"
-bio_lead: "I'm a  software product and organizational professional with over eleven years of experience building products and advancing organisations."
-bio: |
-  My background spans early-stage startups and enterprise environments — giving me the range to move fast when needed and architect for the long haul when it matters. I've led teams, built from zero-to-one, and done everything in between.
+tagline: "From the backlog to the boardroom"
+bio_lead: "I'm a software and organizational professional with over eleven years of experience at the intersection of technology and people, building products and advancing organisations."
+bio: | 
+    My work spans product management, software quality advisory, and organisational change, giving me a rare perspective that bridges technical depth with strategic and human dimensions. I've brought products to market, coached teams through complex transformations, and reviewed software across industries from banking to public sector. 
+    
+    Having started my career as a developer, I speak the language of both the boardroom and the development team, and I am particularly skilled at navigating the stakeholder landscape that sits between them. I thrive in environments where the challenge is not just building the right thing, but getting organisations ready to sustain it.
 
-  Outside of work, I contribute to open source, write about software architecture, and tinker with side projects.
+    Whether I am reviewing source code, coaching a leadership team, or designing a target operating model, the common thread is the same, namely making complex things work in practice, not just on paper.
 
 stats:
   - number: "11+"
-    label: Years exp.
-  - number: "20+"
+    label: Years of experience
+  - number: "25+"
     label: Clients
   - number: "4"
-    label: Products
-  - number: "8"
-    label: Roles
+    label: Launched products
+  - number: "10+"
+    label: Different roles
 
 technologies:
   - Jira
@@ -72,12 +74,6 @@ experience:
     period: "2025 — present"
     description: "Identified the market opportunity and led the end-to-end implementation of the solution with a global cross-functional team. Drove product strategy in a global setting with 8+ stakeholder groups, mapping business processes into the product, leading to the adoption rate increasing twofold every year."
     tags: [Azure DevOps, .Net, Microsoft Azure, Qubus, PowerBI, Transaction Services, Global deployment]
-  
-  - role: Product Manager - KPMG GAAP Conversion Tool 
-    company: KPMG Technology | Digital Assets
-    period: "2019 — 2024"
-    description: "Identified the market opportunity and led the end-to-end implementation of the solution with a global cross-functional team. Drove product strategy in a global setting with 8+ stakeholder groups, mapping business processes into the product, leading to the adoption rate increasing twofold every year."
-    tags: [Azure DevOps, .Net, Microsoft Azure, Qubus, Accounting Services, Global deployment]
 
   - role: Software quality and DevOps consultant
     company: KPMG Technology | Tech Delivery
@@ -96,6 +92,12 @@ experience:
     period: "2020 — present"
     description: "Trained 250+ professionals in 5 different organizations on methodologies like Scrum, Kanban, SAFe, LPM, and work management  tools such as Jira and Azure DevOps. "
     tags: [Operating models, Kanban, Scrum, SAFe, LPM, DesignThinking] 
+
+  - role: Product Manager - KPMG GAAP Conversion Tool 
+    company: KPMG Technology | Digital Assets
+    period: "2019 — 2024"
+    description: "Identified the market opportunity and led the end-to-end implementation of the solution with a global cross-functional team. Drove product strategy in a global setting with 8+ stakeholder groups, mapping business processes into the product, leading to the adoption rate increasing twofold every year."
+    tags: [Azure DevOps, .Net, Microsoft Azure, Qubus, Accounting Services, Global deployment]
     
   - role: Product Owner - EVR banking application
     company: msg systems | Gillardon
@@ -136,13 +138,13 @@ projects:
     - title: Acquisition due diligence enery
       description: "As part of an acquisition process for a large energy company, I contributed to a due diligence review of a software product, assessing its technical quality across maintainability, reliability, security, and scalability, while also gaining insight into the development and operations processes. The IT landscape was large and complex, with many bespoke components."
     - title: Supporting internal IT audit e-commerce
-      description: "I supported an internal audit across several product development teams at a large e-commerce investment company. My focus was on reviewing product development processes — including backlog management, prioritisation methods, and alignment to the company's strategic goals."
+      description: "I supported an internal audit across several product development teams at a large e-commerce investment company. My focus was on reviewing product development processes including backlog management, prioritisation methods, and alignment to the company's strategic goals."
     - title: Due diligence transport provider
       description: "As part of a larger due diligence project for a Swiss public transport provider, I performed a software quality assessment with a focus on analysing source code for maintainability, security, and reliability."
     - title: Software inventory and quality review
       description: "As part of a team engagement for a Dutch multinational professional services firm, I contributed to a software inventory and quality review covering maintainability, security, and reliability as defined by ISO 25010, alongside a value estimation of a digital platform. The review drew on available documentation, source code and artefact analysis, and interviews with key developers."
     - title: Solution architecture design
-      description: "As part of a large modernisation programme at a public sector entity, I developed several architectural frameworks to guide the transition from monolithic systems to scalable, maintainable, and reliable microservices. These frameworks covered technology choices (Java, PostgreSQL), infrastructure (Kubernetes), messaging options, API gateway usage, and CI/CD tooling setup — with a strong emphasis on maintainability, security, and reliability. I also coached the development teams, who were early in their maturity journey, and built several proof-of-concepts to accelerate both development and understanding. Throughout the engagement I acted as a bridge between the development teams, management, and enterprise architects."
+      description: "As part of a large modernisation programme at a public sector entity, I developed several architectural frameworks to guide the transition from monolithic systems to scalable, maintainable, and reliable microservices. These frameworks covered technology choices (Java, PostgreSQL), infrastructure (Kubernetes), messaging options, API gateway usage, and CI/CD tooling setup with a strong emphasis on maintainability, security, and reliability. I also coached the development teams, who were early in their maturity journey, and built several proof-of-concepts to accelerate both development and understanding. Throughout the engagement I acted as a bridge between the development teams, management, and enterprise architects."
     - title: DevOps maturity model design
       description: "I co-designed a DevOps maturity model as a KPMG asset that organisations can use to assess their maturity across development and continuous integration practices."
 
@@ -152,17 +154,17 @@ projects:
     - title: Coaching internal audit function
       description: "I worked as a coach at a large financial institution that developed their own way of working tailored to the internal audit function. Working side-by-side with audit teams, I translated the high-level design into the organisation and supported its implementation. I coached employees in their new roles, helped establish their rituals and backlogs, and led the setup and adoption of Azure DevOps as a work management tool to mature their new way of working."
     - title: Organizing big rool planning event
-      description: "I was one of the consultants who organised and facilitated the first PI Planning events for a British bank, targeting the entire Cyber function — spanning multiple teams and leadership at C-level and portfolio level. Given my strong SAFe expertise, I took on an advisory role for this first iteration, helping the team lay the foundations for their new agile way of working."
+      description: "I was one of the consultants who organised and facilitated the first PI Planning events for a British bank, targeting the entire Cyber function spanning multiple teams and leadership at C-level and portfolio level. Given my strong SAFe expertise, I took on an advisory role for this first iteration, helping the team lay the foundations for their new agile way of working."
     - title: Trainer agile methodologies
       description: "I designed and delivered training programmes for several teams as part of a pan-African banking conglomerate's agile transformation. I was responsible for setting up the trainings, facilitating the sessions, and leading the Q&A discussions afterwards. Topics covered included backlog management, user story refinement, retrospectives and continuous improvement, estimation, planning and review, and agile mindset and culture."
     - title: Process design & implemention Data Platform 
-      description: "I led the design and implementation of core processes for Data & Integration at an asset management company, serving as process implementation manager. My focus was on identifying key processes, aligning cross-functional teams, and driving change implementation at a global level — covering areas such as incident and change management."
+      description: "I led the design and implementation of core processes for Data & Integration at an asset management company, serving as process implementation manager. My focus was on identifying key processes, aligning cross-functional teams, and driving change implementation at a global level covering areas such as incident and change management."
     - title: Leadership coaching
       description: "As an agile coach at a retail bank, I was responsible for coaching the value stream of loan products. I provided individual coaching for RTE, PM, PO, and SM roles, and extended coaching to their teams where needed. I also supported the RTE in organising PI Planning events and contributed to the setup of Lean Portfolio Management."
     - title: Funding model change within CFO 
       description: "I supported the financial controlling function of a large insurance company as a business agility expert. In this role, I guided and coached finance professionals through their transition to an agile funding model, teaching concepts of agile portfolio management to advance their understanding of agile ways of working and its implications for the finance function."
     - title: Target Operating Model design  
-      description: "I was the driving force behind the design of the Target Operating Model that forms the core of the KPMG Powered Enterprise solution — a solution implemented worldwide and used across the KPMG network. Together with my team, I developed the software development and CI/CD components of the model. The KPMG Target Operating Model spans six focus areas — Process, People, Service Delivery Model, Technology, Performance Insights, and Governance — and covers software quality, continuous integration, and continuous delivery in depth."
+      description: "I was the driving force behind the design of the Target Operating Model that forms the core of the KPMG Powered Enterprise solution, a solution implemented worldwide and used across the KPMG network. Together with my team, I developed the software development and CI/CD components of the model. The KPMG Target Operating Model spans six focus areas Process, People, Service Delivery Model, Technology, Performance Insights, and Governance, and covers software quality, continuous integration, and continuous delivery in depth."
     
   - category: Software Development
     number: "04"
@@ -178,7 +180,7 @@ interests:
     description: "Passionate about building internal developer platforms, CI/CD pipelines, and the infrastructure that lets teams ship faster."
   - icon: "📖"
     title: Reading
-    description: "From technical deep-dives to fiction — always with a book on the go. Especially drawn to systems thinking and behavioural science."
+    description: "From technical deep-dives to fiction always with a book on the go. Especially drawn to systems thinking and behavioural science."
   - icon: "🧠"
     title: Psychology
     description: "Fascinated by how people think, make decisions, and interact. It shapes how I approach team dynamics and product design."
