@@ -113,14 +113,14 @@ projects:
   - category: Product Management
     number: "01"
     items:
-    - title: StreamKit
-      description: "Open-source real-time data streaming library for Node.js with built-in backpressure management and WebSocket support."
-    - title: KGCT
-      description: ""
+    - title: THEO (Track, Harvest and Expand Opportunities)
+      description: "Launched and drove the product development, a product that enables the early identification of client opportunities within the Deals function of KPMG. The product is deployed to 4 KPMG member firms."
+    - title: KGCT (KPMG GAAP Conversion Tool)
+      description: "KGCT is a software application developed as part of the Regulatory Driven Transformation initiative with the aim ofinnovating and digitizing KPMG services. While leading the development and implementation of this tool, I perfomed product management activities such as developing the business case for the product, managing the backlog and release schedule. "
     - title: Credit File Review
-      description: ""
-    - title: ApplicationEVR
-      description: ""
+      description: "Developed a Credit File review application that was used within the Financial Risk Management function to optimize and improve the analysis of the credit file review."
+    - title: EVR (Ergebnisvorschaurechnung)
+      description: "EVR is a large banking product serving clients with the simulation of their businesses over a run of several years. Its complex business logic, used for profit and loss forecasting along with liquidity riskmanagement, makes it a challenge for development. The product has a high maturity level, where development happens through several cross-functional distributed teams."
 
   - category: Software Development Advisory
     number: "02"
