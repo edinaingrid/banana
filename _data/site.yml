@@ -143,18 +143,20 @@ projects:
   - category: Organizational Change Advisory
     number: "03"
     items:
-    - title: Rabo
-      description: ""
-    - title: HSBC
-      description: ""
-    - title: Ecobank
-      description: ""
-    - title: Aegon
-      description: ""
-    - title: Tesco
-      description: ""
-    - title: Allianz
-      description: ""
+    - title: Coaching internal audit function
+      description: "I worked as a coach at a large financial institution that developed their own way of working tailored to the internal audit function. Working side-by-side with audit teams, I translated the high-level design into the organisation and supported its implementation. I coached employees in their new roles, helped establish their rituals and backlogs, and led the setup and adoption of Azure DevOps as a work management tool to mature their new way of working."
+    - title: Organizing big rool planning event
+      description: "I was one of the consultants who organised and facilitated the first PI Planning events for a British bank, targeting the entire Cyber function — spanning multiple teams and leadership at C-level and portfolio level. Given my strong SAFe expertise, I took on an advisory role for this first iteration, helping the team lay the foundations for their new agile way of working."
+    - title: Trainer agile methodologies
+      description: "I designed and delivered training programmes for several teams as part of a pan-African banking conglomerate's agile transformation. I was responsible for setting up the trainings, facilitating the sessions, and leading the Q&A discussions afterwards. Topics covered included backlog management, user story refinement, retrospectives and continuous improvement, estimation, planning and review, and agile mindset and culture."
+    - title: Process design & implemention Data Platform 
+      description: "I led the design and implementation of core processes for Data & Integration at an asset management company, serving as process implementation manager. My focus was on identifying key processes, aligning cross-functional teams, and driving change implementation at a global level — covering areas such as incident and change management."
+    - title: Leadership coaching
+      description: "As an agile coach at a retail bank, I was responsible for coaching the value stream of loan products. I provided individual coaching for RTE, PM, PO, and SM roles, and extended coaching to their teams where needed. I also supported the RTE in organising PI Planning events and contributed to the setup of Lean Portfolio Management."
+    - title: Funding model change within CFO 
+      description: "I supported the financial controlling function of a large insurance company as a business agility expert. In this role, I guided and coached finance professionals through their transition to an agile funding model, teaching concepts of agile portfolio management to advance their understanding of agile ways of working and its implications for the finance function."
+    - title: Target Operating Model design  
+      description: "I was the driving force behind the design of the Target Operating Model that forms the core of the KPMG Powered Enterprise solution — a solution implemented worldwide and used across the KPMG network. Together with my team, I developed the software development and CI/CD components of the model. The KPMG Target Operating Model spans six focus areas — Process, People, Service Delivery Model, Technology, Performance Insights, and Governance — and covers software quality, continuous integration, and continuous delivery in depth."
     
   - category: Software Development
     number: "04"
