@@ -97,7 +97,6 @@ experience:
     description: "Trained 250+ professionals in 5 different organizations on methodologies like Scrum, Kanban, SAFe, LPM, and work management  tools such as Jira and Azure DevOps. "
     tags: [Operating models, Kanban, Scrum, SAFe, LPM, DesignThinking] 
     
-    
   - role: Product Owner - EVR banking application
     company: msg systems | Gillardon
     period: "2017 — 2018"
@@ -111,42 +110,73 @@ experience:
     tags: [Java, OOP, Testing, SonarQube, Eclipse, Mercurial, Git, CruiseControl, Oracle]
 
 projects:
-  - number: "01"
-    title: StreamKit
-    description: "Open-source real-time data streaming library for Node.js with built-in backpressure management and WebSocket support."
-    url: "https://github.com/alexmorgan/streamkit"
-    tags: [Node.js, WebSockets, TypeScript]
+  - category: Product Management
+    number: "01"
+    items:
+    - title: StreamKit
+      description: "Open-source real-time data streaming library for Node.js with built-in backpressure management and WebSocket support."
+      tags: [Node.js, WebSockets, TypeScript]
+    - title: KGCT
+      description: ""
+    - title: Credit File Review
+      description: ""
+    - title: ApplicationEVR
+      description: ""
 
-  - number: "02"
-    title: Palette UI
-    description: "A minimal React component library focused on accessibility and composability. Used by 1,200+ developers on npm."
-    url: "https://github.com/alexmorgan/palette-ui"
-    tags: [React, WCAG 2.1, Storybook]
+  - category: Software Development Advisory
+    number: "02"
+    - title: Palette UI
+      description: "A minimal React component library focused on accessibility and composability. Used by 1,200+ developers on npm."
+      tags: [React, WCAG 2.1, Storybook]
+    - title: Software Quality Assessment
+      description: ""
+      tags: [React, WCAG 2.1, Storybook]
+    - title: Waardebepaling
+      description: ""
+      tags: [React, WCAG 2.1, Storybook]
+    - title: Infrastructure Inventory
+      description: ""
+      tags: [React, WCAG 2.1, Storybook]
+    - title: Solution Architect
+      description: ""
+      tags: [React, WCAG 2.1, Storybook]
+    - title: Operational Stability Review
+      description: ""
+      tags: [React, WCAG 2.1, Storybook]
+    - title: Software Quality Assessment II
+      description: ""
+      tags: [React, WCAG 2.1, Storybook]
 
-  - number: "03"
-    title: QueryFlow
-    description: "A visual SQL query builder that auto-generates optimised queries from drag-and-drop logic blocks."
-    url: "https://github.com/alexmorgan/queryflow"
-    tags: [React, PostgreSQL, Python]
-
-  - number: "04"
-    title: Cortex CLI
-    description: "Developer productivity CLI tool with Git workflow automations and AI-assisted changelog generation."
-    url: "https://github.com/alexmorgan/cortex"
-    tags: [Go, OpenAI API, Shell]
-
-  - number: "05"
-    title: Infra Atlas
-    description: "Internal tooling to visualise cloud infrastructure dependencies across AWS accounts."
-    url: "#"
-    tags: [AWS SDK, D3.js, GraphQL]
-
-  - number: "06"
-    title: Briefr
-    description: "Async video update tool for remote teams — record, auto-transcribe, and share standup updates without meetings."
-    url: "#"
-    tags: [React, FFmpeg, Whisper API]
-
+  - category: Organizational Change Advisory
+    number: "03"
+    - title: Rabo
+      description: ""
+      tags: [React, PostgreSQL, Python]
+    - title: HSBC
+      description: ""
+      tags: [React, PostgreSQL, Python]
+    - title: Ecobank
+      description: ""
+      tags: [React, PostgreSQL, Python]
+    - title: Aegon
+      description: ""
+      tags: [React, PostgreSQL, Python]
+    - title: Tesco
+      description: ""
+      tags: [React, PostgreSQL, Python]
+    - title: Allianz
+      description: ""
+      tags: [React, PostgreSQL, Python]
+    
+  - category: Software Development
+    number: "04"
+    items:
+      - title: Java Backend EVR
+        description: ""
+        tags: [Go, OpenAI API, Shell]
+      - title: Software Developer Intern
+        description: ""
+        tags: [Go, OpenAI API, Shell]
 
 interests:
   - icon: "⚙"
